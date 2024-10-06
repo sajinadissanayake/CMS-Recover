@@ -1,0 +1,60 @@
+.calendar-container {
+  width: 310px;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.react-calendar__navigation {
+  background-color: transparent; /* Make navigation background transparent */
+  border-radius: 10px 10px 0 0; /* Rounded corners on top */
+  color: rgb(14, 13, 13); /* Text color */
+  text-align: center;
+}
+
+.react-calendar__navigation button {
+  color: rgb(2, 2, 2); /* Ensuring navigation buttons are visible */
+}
+
+.react-calendar__month-view__weekdays {
+  background-color: transparent; /* Make weekdays background transparent */
+  border-radius: 0 0 10px 10px;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  color: black; /* Black text for weekdays */
+  font-weight: bold;
+}
+
+.react-calendar__tile {
+  background: transparent; /* Make tiles background transparent */
+  border: none; /* Remove borders around each date */
+  border-radius: 5px; /* Rounded corners for tiles */
+  text-align: center;
+  padding: 10px 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.react-calendar__tile--now {
+  background: #000; /* Current day in black */
+  color: #fff;
+  border-radius: 50%;
+}
+
+.react-calendar__tile--active {
+  background: #1a1a1a; /* Active day in dark gray */
+  color: #fff;
+  border-radius: 50%;
+}
+
+.tile-weekend {
+  color: #3f51b5; /* Blue for weekends */
+}
+
+.react-calendar__tile:hover:not(.react-calendar__tile--active):not(.react-calendar__tile--now) {
+  background: #e0e0e0; /* Light gray background on hover */
+  border-radius: 50%;
+  cursor: pointer;
+}
