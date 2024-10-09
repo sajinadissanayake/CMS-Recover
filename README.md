@@ -25,7 +25,7 @@ The Healthy Lifestyle Clinic project aims at leading the Divisional hospitals in
 ## Installation
 1. Clone the repository to your local machine:
    ```
-  https://github.com/sajinadissanayake/Clinic-management-system.git
+ https://github.com/sajinadissanayake/CMS-Recover.git
    ```
 2. Navigate to the server directory:
    ```
