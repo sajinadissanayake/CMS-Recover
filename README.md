@@ -19,6 +19,11 @@ The Healthy Lifestyle Clinic project aims at leading the Divisional hospitals in
  6. Health Education System
  7. Graphical Representation of Health Data
  8. Record and Report Requesting method by the Doctor for the patient
+    
+
+
+# Demostration -  https://youtu.be/M_MXZInTrnI
+
 
 # Getting Started
 
@@ -36,11 +41,6 @@ The Healthy Lifestyle Clinic project aims at leading the Divisional hospitals in
    ```
    cd client
    npm start
-   ```
-
-3. click to watch demostration:
-   ```
-   https://youtu.be/M_MXZInTrnI
    ```
 
 
