@@ -25,7 +25,7 @@ The Healthy Lifestyle Clinic project aims at leading the Divisional hospitals in
 ## Installation
 1. Clone the repository to your local machine:
    ```
- https://github.com/sajinadissanayake/CMS-Recover.git
+   https://github.com/sajinadissanayake/CMS-Recover.git
    ```
 2. Navigate to the server directory:
    ```
@@ -37,6 +37,12 @@ The Healthy Lifestyle Clinic project aims at leading the Divisional hospitals in
    cd client
    npm start
    ```
+
+3. click to watch demostration:
+   ```
+   https://youtu.be/M_MXZInTrnI
+   ```
+
 
 ## frameworks and tools
 1. Frontend Development with React.js
